@@ -52,7 +52,7 @@ header {
     border: 3px solid black;
     margin-left: 20px;
     margin-top: 15px;
-    object-fit: cover; 
+    object-fit: cover;
     /* object-fit: cover; quando a img n cabe na tela ela é esticada */
     aspect-ratio: 1;
     /* aspect-ratio: 1 mantem a proporção */
@@ -128,7 +128,7 @@ button {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
 
 }
 
@@ -145,6 +145,7 @@ button {
     padding: 20px;
     border-radius: 5px;
     position: relative;
+    max-width: 900px;
 }
 
 .close {
@@ -165,7 +166,7 @@ button {
     border: 5px solid black;
     width: 100%;
     height: 60%;
-    background-color: rgba(248, 248, 248, 0.4);
+    background-color: rgba(40, 110, 240, 0.6);
     background-image: url('../img/game.jpg');
     background-position: center;
     background-size: cover;
@@ -298,36 +299,57 @@ p {
         min-width: 250px;
         min-height: 250px;
     }
-    .texto, .social-media {
+
+    .texto,
+    .social-media {
         width: 100%;
     }
-    h1{
+
+    h1 {
         font-size: 3rem;
     }
-    header, .mainSobre, .mainProjetos {
+
+    header,
+    .mainSobre,
+    .mainProjetos {
         padding: 1rem;
     }
 
-    #openModal{
+    #openModal {
         position: absolute;
         top: 1rem;
         right: 1rem;
     }
 
-    .cabecalho{
+    .cabecalho {
         margin: 0;
     }
 
-     .modal{
+    .modal {
         width: 100%;
     }
 
-    .modal-content{
+    .modal-content {
         width: 90%;
     }
 
-    .close{
+    .close {
         margin-top: 0;
+    }
+
+    .mainSobre p{
+        text-align: justify;
+        font-size: 20px;
+        font: normal;
+    }
+
+    .projeto {
+        flex-direction: column;
+    }
+
+    .projeto .mainText {
+        width: 100%;
+        text-align: justify;
     }
 
 }
