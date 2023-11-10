@@ -128,6 +128,7 @@ button {
     left: 0;
     width: 100%;
     height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
 
 }
 
@@ -137,7 +138,6 @@ button {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
     /* Fundo semitransparente */
     width: 100%;
     height: 100%;
@@ -163,8 +163,8 @@ button {
     justify-content: space-evenly;
     flex-direction: column;
     border: 5px solid black;
-    width: 900px;
-    height: 600px;
+    width: 100%;
+    height: 60%;
     background-color: rgba(248, 248, 248, 0.4);
     background-image: url('../img/game.jpg');
     background-position: center;
@@ -316,6 +316,18 @@ p {
 
     .cabecalho{
         margin: 0;
+    }
+
+     .modal{
+        width: 100%;
+    }
+
+    .modal-content{
+        width: 90%;
+    }
+
+    .close{
+        margin-top: 0;
     }
 
 }
