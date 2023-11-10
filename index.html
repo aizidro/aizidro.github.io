@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="/style/style.css">
 </head>
 
 <body>
-    <img src="../img/1129256.jpg" alt="">
+    <img class="imgContainer" src="../img/1129256.jpg" alt="">
     <header>
         <div class="texto">
             <h1>Hi, I am</h1>
@@ -20,7 +19,9 @@
                 <a href="https://github.com/aizidro">Github</a>
             </div>
         </div>
-        <div class="cabecalho"></div>
+        <div class="cabecalhoContainer">
+            <div class="cabecalho"></div>
+        </div>
         <button id="openModal">&#9776</button>
         <div id="myModal" class="modal">
             <div class="modal-content">
@@ -46,8 +47,9 @@
     </header>
     <div class="mainSobre">
         <h1>Sobre Mim</h1>
-            <p>Olá, sou o André, estou finalizando o curso de tecnico de TI, Desenvolvimento de Sitemas, no SENAI de Jaguariúna.</p>
+            <p>Olá, sou o André, tenho 22 anos, estou finalizando o curso de tecnico de TI, Desenvolvimento de Sitemas, no SENAI de Jaguariúna.</p>
             <p>Estou buscando a minha primeira experiência profissional, voltado para area de TI.</p>
+            <p>Tenho conhecimento em: HTML, CSS, JavaScript, React Native, Maria DB</p>
     </div>
     <main class="mainProjetos">
         <h1>Projetos</h1>
@@ -60,7 +62,7 @@
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum recusandae nostrum non facere unde, voluptatem libero ratione odio eos, reiciendis nisi quos velit neque sed dolore. Eaque accusamus voluptas commodi.</p>
             </div>
             <div class="projeto">
-                <a href="">
+                <a href="#">
                     <div class="project-card">
                         <div class="div-img"></div>
                         <p>Projeto</p>
@@ -69,15 +71,17 @@
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum recusandae nostrum non facere unde, voluptatem libero ratione odio eos, reiciendis nisi quos velit neque sed dolore. Eaque accusamus voluptas commodi.</p>
             </div>
             <div class="projeto">
+                <a href="#">
                 <div class="project-card">
                     <div class="div-img"></div>
                     <p>Projeto</p>  
                 </div>
+            </a>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum recusandae nostrum non facere unde, voluptatem libero ratione odio eos, reiciendis nisi quos velit neque sed dolore. Eaque accusamus voluptas commodi.</p>
             </div>
         </div>
     </main>
 </body>
-<script src="../script/script.js"></script>
+<script src="./script/script.js"></script>
 
 </html>
